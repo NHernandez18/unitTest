@@ -1,10 +1,9 @@
 package tests;
 
-import static org.junit.jupiter.api.Assertions.*;
+
 
 import org.junit.Before;
-import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.Test;
+
 
 import model.Employee;
 
@@ -14,7 +13,6 @@ import model.Employee;
  * Sep 6, 2023
  */
 class EmpBusinessLogic {
-	EmpBusinessLogic empBL = new EmpBusinessLogic();
 	Employee employee = new Employee("Emily");
 	
 	public double calculateYearlySalary(Employee employee) {
